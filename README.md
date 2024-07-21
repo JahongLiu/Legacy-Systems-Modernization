@@ -1,7 +1,7 @@
 # Legacy-Systems-Modernization
 Modernized legacy enterprise applications into cloud-native microservices
 
-## Part 1: Spring MVC App to Spring
+## Part 1: Spring MVC App to Spring Boot
 The company, known for running successful fantasy football leagues, is modernizing its intranet, transitioning from outdated web applications running on Tomcat servlet engines to a modern, cloud-based, microservices architecture. This modernization effort includes both hardware and software updates, starting with adopting Spring Boot. The goal is to leverage Spring Boot's benefits, such as bundled dependencies, reduced boilerplate code, and integration with modern frameworks, while decommissioning the old application servers.
 
 The initial task is to migrate a report-generating application, which provides an overview of interesting statistics from previous league seasons, to Spring Boot. This application currently uses Thymeleaf and can be tested with sample data and an internal H2 database. The migration will involve rearchitecting the application to use Spring Boot, facilitating easier and more effective building, testing, and deployment.
